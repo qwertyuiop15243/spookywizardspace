@@ -1,9 +1,41 @@
-body{
-
-    color: rgb(128, 128, 128);
-    background-image: url(https://lh3.googleusercontent.com/9zE3StG50FuHs9PCo6kMTIhWKyIc3vJ2JqxPZEgaKc8WQ2vzAyWR4wqYYhMZ7zkhc0C893COYflGKt70Sb15e4gg7eI=s1280-w1280-h800);
-
-}
-.big{
-font-size: large;
-}
+@font-face {
+    font-family: MyFont;
+     src: url(Ghastly\ Panic.ttf);
+ }
+ html{
+    
+     background-color: black;
+ 
+ }
+ .large{
+     width: 500px;
+ }
+ .big{
+     font-size: 40px;
+     color: grey;
+ }
+ .small{
+     font-size: 20px;
+ }
+ #giant{
+     font-size:50px;
+ }
+ /*custom header*/
+ a{
+     color:rgb(216, 213, 210);
+ }
+ h1{
+     color: rgb(204, 203, 198);
+ border-style: solid;
+ border-inline: 200px;
+ 
+ }
+ p1{
+     color:rgb(182, 181, 173);
+     font-family: MyFont;
+     font-size: x-large;
+ }
+ h2{
+     color: rgb(214, 214, 209);
+ 
+ }
